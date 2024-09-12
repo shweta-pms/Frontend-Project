@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    background-image: url(./wedding-slider-01.jpg);
+    height: 700px;
+    background-position: center;
+     display: flex;
+     text-align: center;
+     justify-content: space-between;
+     
+     
+    
+}
+ .navbar .logo{
+    margin: 20px;
+}
+.navbar ul{
+    margin: 30px;
+      
+}
+.navbar ul li{
+  font-family: "Poppins", sans-serif;
+ text-decoration: none;
+ list-style: none;
+ margin: 10px;
+ display: inline;
+ margin-left: 30px;
+ color: white;
+ position: relative;
+ left: 100px;
+}
+.navbar .btn{
+     margin: 30px;
+     width: 150px;
+     position: relative;
+     right: 70px;
+     
+     
+}
+.second{
+    display: flex;
+    text-align: start;
+    justify-content: start;
+}
+ .second .text{
+    margin-top: 150px;
+    padding: 60px;
+ }
+ .second .text h3{
+    font-weight: 1px;
+    padding: 20px;
+ }
+ .second .text h1{
+  padding: 10px;
+  color: rgb(139, 82, 7);
+  font-size: 40px;
+ }
+ .second .text .one{
+    padding: 10px;
+ }
+ .second .text p{
+    padding: 10px;
+ }
+ .second button{
+    font-size: 20px;
+    background-color: bisque;
+    padding: 5px;
+    width: 150px;
+    
+ }
+ .agency{
+   background-color:rgb(223, 210, 193) ;
+   text-align: center;
+   justify-content: center;
+   
+ }
+   
+  
+ .agency h3{
+   padding-top: 40px;
+   font-size: 35px;
+   font-weight: 700;
+   color: rgb(177, 111, 26);
+ }
+ .agency p{
+   padding: 70px;
+ }
+  
+  .agency .card{
+   display: flex;
+   background-color: aliceblue;
+   max-width: 1100px;
+   margin: auto;
+   padding: 20px;
+
+   
+ }
+ .card img{
+   height: 300px;
+   width: 300px;
+
+ }
+ .card #h6{
+   background-color:rgb(142, 140, 140);
+   width: 70%;
+   text-align: center;
+   margin-left: 60px;
+   padding: 6px;
+   margin-top: 30px;
+ }
+ .card h6{
+   padding: 30px;
+
+ }
+ .card #h5{
+    
+   width: 70%;
+   text-align: center;
+   margin-left: 60px;
+   /* padding: 6px; */
+   margin-top: 30px;
+}
+.card #t p{
+   padding-bottom: 50px;
+}
+.albums img{
+   height: 430px;
+   width: 300px;
+   /* display: flex; */
+   text-align: center;
+   justify-content: center;
+   margin-top: 30px;
+   text-align: center;
+   margin-left: 30px;
+}
+hr{
+   color: black;
+   height: 6px;
+   margin-top: 30px;
+
+}
+.albumsone img{
+   display: flex;
+   height: 400px;
+   width: 430px;
+   margin-top: 30px;
+   margin-right: 12px;
+   padding: 1px;
+   border-image-width: 30px;
+  display: inline; 
+}  
+.restant{
+   display: flex;
+   text-align: center;
+   justify-content: space-around;
+   gap: 20px;
+   background-color:rgb(245,240,233);
+   padding: 150px;
+   margin-top: 15impx;
+}
+.restant h3{
+   padding: 10px;
+}
+.wedding{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   gap: 20px;
+   margin-top: 30px;
+   padding-top: 40px;
+   margin-bottom: 20px;
+}
+.wedding p{
+   padding-top: 80px;
+   justify-content: space-between;
+}
+ .rate{
+  
+   background-color: rgb(245,240,233);;
+ }
+ .rate h2{
+   padding-top: 40px;
+   margin-top: 30px;
+   text-align: center;
+ }
+ .rate #pone p{
+   max-width: 1100px;
+   margin: auto;
+   width: 600px;
+   padding: 40px;
+ }
+ .rate .cardone{
+   display: inline;
+ }
+ .rate .cardone img{
+   height: 100px;
+   width: 100px;
+ }
+ .avatar{
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+ }
+.avatar{
+  
+   gap: 30px;
+   max-width: 1100px;
+   margin: auto;
+   margin-bottom: 80px;
+}
+.avatar img{
+   border-radius: 50%;
+   /* padding-top: 80px; */
+}
+.avatar h3{
+   padding: 10px;
+}
+.avatar p{
+   padding: 10px;
+   
+}
+.hero{
+   background-image: url(./hero-bg25\ bc.jpg);
+   display: flex;
+   text-align: center;
+   justify-items: center;
+   padding: 100px;
+   gap: 15px;
+   height: 250px;
+}
+ .hero .boxone{
+   
+   background-color:rgb(145, 132, 132);
+ }
+ .hero .boxtwo{
+   
+   background-color:rgb(145, 132, 132);
+ }
+ .hero .boxthree{
+   
+   background-color:rgb(145, 132, 132);
+ }
+ .hero .boxone {
+   padding: 15px;
+   margin-top: 25px;
+ }
+ .hero .boxone p{
+   padding-top: 15px;
+ }
+ .hero .boxone h3{
+   padding: 10px;
+ }
+ 
+ .hero .boxtwo {
+   padding: 15px;
+   margin-top: 25px;
+ }
+ .hero .boxtwo p{
+   padding-top: 15px;
+ }
+ .hero .boxtwo h3{
+   padding: 10px;
+ }
+ 
+ .hero .boxthree {
+   padding: 15px;
+   margin-top: 25px;
+ }
+ .hero .boxthree p{
+   padding-top: 15px;
+ }
+ .hero .boxthree h3{
+   padding: 10px;
+ }
+ .herobg{
+   display: flex;
+   display: 75%;
+   align-items: center;
+   justify-content: center;
+ }
+ .herobg img{
+   width: 60%;
+   padding-top: 20px;
+ }
+ #from{
+padding-left: 40px;
+   background-color: burlywood;
+   height: 500px;
+   max-width: 1000px;
+   margin: auto;
+ }
+ .herobg h1{
+   padding-top: 150px;
+   font-size: 50px;
+    
+ }
+ .herobg h3{
+   font-size: 30px;
+ }
+ .herobg p{
+     padding: 20px;
+     font-size: 20px;
+ }
+ #from form input{
+   padding: 10px;
+   width: 250px;
+   margin-left: 50px;
+ }
+ #from form button{
+   background-color: rgb(89, 55, 9);
+   font-size: 18px;
+   margin-left: 50px;
+   margin-top: 10px;
+ }
+ button{
+   padding: 10px;
+ }
+ .foot{
+   text-align: center;
+   margin: 70px;
+ }
+ .footone{
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+   margin-left: 40px;
+ }
+ .footone icon i{
+  
+ }
